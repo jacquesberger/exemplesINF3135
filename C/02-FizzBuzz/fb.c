@@ -18,8 +18,9 @@
 int main(int argc, char** argv)
 {
   int max = 50;
+  int i;
 
-  for (int i = 1; i < max; i++)
+  for (i = 1; i < max; i++)
   {
     if (i % 3 == 0 && i % 5 == 0)
       printf("Fizz Buzz\n");
