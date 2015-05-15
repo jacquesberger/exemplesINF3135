@@ -41,11 +41,10 @@ int main(int argc, char** argv)
   printf("\nParcours avec pointeur :\n");
   i = 0;
   parcours = fibo;
-  while (i < TAILLE)
+  while (parcours != (fibo + TAILLE))
   {
     printf("%d\n", *parcours);
     parcours++;
-    i++;
   }
 
   return 0;
