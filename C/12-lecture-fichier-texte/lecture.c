@@ -35,7 +35,10 @@ int main(int argc, char** argv)
     printf("%s", buffer);
 
   if (fclose(fichier) == EOF)
+  {
     printf("Erreur lors de la fermeture du fichier.\n");
+    return 1;
+  }
 
   return 0;
 }
