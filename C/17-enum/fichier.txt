@@ -1,0 +1,17 @@
+Une ligne vide...
+
+Une phrase courte.
+
+Une phrase longue.
+
+J'aime beaucoup le cours INF3135. C'est bien le langage C!
+
+
+
+Fin du fichier
+
+
+
+
+
+Vraie fin du fichier
