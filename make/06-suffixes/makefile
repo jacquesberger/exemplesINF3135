@@ -17,7 +17,7 @@ link: compile
 
 clean:
 	rm $(EXE)
-	rm *.o
+	rm $(OBJS)
 
 start: link
 	./$(EXE)
