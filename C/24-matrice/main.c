@@ -68,5 +68,5 @@ int main(int argc, char** argv)
     free(matrice[i]);
   free(matrice);
 
-  return 0;
+  return erreur;
 }

@@ -24,6 +24,7 @@ const int tailleEtendue = 30;
 int main(int argc, char** argv)
 {
   char* chaine;
+  char* chaine2;
 
   chaine = (char*) malloc(tailleDefaut);
   if (!chaine)
@@ -35,7 +36,14 @@ int main(int argc, char** argv)
   strcpy(chaine, "Jacques");
   printf("Chaîne : %s\n", chaine);
 
-  chaine = (char*) realloc(chaine, tailleEtendue);
+  chaine2 = (char*) realloc(chaine, tailleEtendue);
+  if (!chaine2)
+  {
+    printf("Erreur d'allocation de mémoire : %s\n", strerror(errno));
+    free(chaine);
+    exit(1);
+  }
+  chaine = chaine2;
 
   strcpy(chaine, "Jacques Berger");
   printf("Chaîne : %s\n", chaine);
