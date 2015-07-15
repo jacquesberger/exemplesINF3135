@@ -1,0 +1,2 @@
+Entrez une séquence de mots, une ligne vide lorsque terminé.
+Taille de la pile : 0

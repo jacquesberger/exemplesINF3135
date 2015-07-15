@@ -1,0 +1,35 @@
+Entrez une séquence de mots, une ligne vide lorsque terminé.
+Taille de la pile : 32
+Contenu de la pile :
+asdf
+kjgh
+asdfh
+asaaa
+vv
+jgjgh
+asdf
+sef
+hyfhfg
+vfdsvfd
+dfyjgf
+das
+fdtudf
+vas
+fa
+rtyu
+fgh
+asdf
+nyt
+vfd
+cdsw
+wer
+ghj
+dfgh
+sdfg
+uio
+yui
+tyu
+rty
+ert
+qwer
+asdf

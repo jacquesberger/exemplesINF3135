@@ -1,0 +1,11 @@
+Entrez une séquence de mots, une ligne vide lorsque terminé.
+Taille de la pile : 8
+Contenu de la pile :
+h
+g
+f
+e
+d
+c
+b
+a
