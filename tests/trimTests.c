@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#include <assert.h>
 #include <stdio.h>
 #include <string.h>
 #include "trimTests.h"
@@ -44,5 +45,8 @@ void run(char* original, char* expected)
   if (strcmp(buffer, expected) == 0)
     printf("SUCCES\n\n");
   else
+  {
     printf("ECHEC\n\n");
+    assert(0);
+  }
 }
