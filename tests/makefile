@@ -7,3 +7,6 @@ units:
 
 fct: main
 	./ftests.sh
+
+tests: units fct
+	

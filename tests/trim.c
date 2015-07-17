@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#include <assert.h>
 #include <ctype.h>
 #include <string.h>
 
@@ -20,6 +21,8 @@ void trim(char* buffer)
 {
   char* it;
   char* start;
+  assert(buffer != NULL);
+
   start = buffer;
   it = buffer;
   while (isspace(*it) && *it != '\0')
