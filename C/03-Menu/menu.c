@@ -44,7 +44,7 @@ int main(int argc, char** argv)
 
   printf("1-Crème glacée napolitaine 1.00$\n");
   printf("2-Sorbet au durion         9.00$\n");
-  printf("Choisissez un desset>");
+  printf("Choisissez un dessert>");
 
   scanf("%d", &choix);
 
