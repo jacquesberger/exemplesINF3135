@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-enum Terminaison {FIN_NORMALE, ERREUR_FICHIER};
-enum Bool {FAUX, VRAI};
+enum Terminaison_t {FIN_NORMALE, ERREUR_FICHIER};
+enum Bool_t {FAUX, VRAI};
 
 int obtenirNombreAleatoire();
 int saisirNombre(int);
