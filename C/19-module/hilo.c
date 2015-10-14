@@ -22,7 +22,7 @@ void hilo()
 {
   int cible, saisie;
   int coups = 10;
-  enum Bool enJeu = VRAI;
+  enum Bool_t enJeu = VRAI;
 
   cible = obtenirNombreAleatoire();
   do

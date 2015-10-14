@@ -13,9 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
 #include "hilo.h"
 #include "main.h"
 

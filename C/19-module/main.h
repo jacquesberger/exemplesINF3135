@@ -14,4 +14,4 @@
  * limitations under the License.
  */
 
-enum Terminaison {FIN_NORMALE, ERREUR_FICHIER};
+enum Terminaison_t {FIN_NORMALE, ERREUR_FICHIER};

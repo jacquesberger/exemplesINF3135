@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-enum Bool {FAUX, VRAI};
+enum Bool_t {FAUX, VRAI};
 
 int obtenirNombreAleatoire();
 int saisirNombre(int);
