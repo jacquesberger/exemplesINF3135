@@ -33,7 +33,7 @@ int main(int argc, char** argv)
   printf("Entrez le nombre de rangées : ");
   scanf("%d", &nbRangees);
 
-  matrice = (int**) calloc(nbRangees, sizeof(int*));
+  matrice = calloc(nbRangees, sizeof(int*));
   if (!matrice)
   {
     printf("Erreur d'allocation de mémoire : %s\n", strerror(errno));
@@ -42,7 +42,7 @@ int main(int argc, char** argv)
 
   for (i = 0; i < nbRangees; i++)
   {
-    matrice[i] = (int*) calloc(nbColonnes, sizeof(int));
+    matrice[i] = calloc(nbColonnes, sizeof(int));
     if (!matrice[i])
     {
       erreur = 1;

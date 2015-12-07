@@ -27,7 +27,7 @@ int main(int argc, char** argv)
   printf("Entrez la taille du tableau : ");
   scanf("%d", &taille);
 
-  tableau = (int*) malloc(taille * sizeof(int));
+  tableau = malloc(taille * sizeof(int));
   if (!tableau)
   {
     printf("Erreur d'allocation de mémoire : %s\n", strerror(errno));

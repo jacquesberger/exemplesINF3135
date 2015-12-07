@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 {
   int* ptr;
 
-  ptr = (int*) malloc(sizeof(int));
+  ptr = malloc(sizeof(int));
   if (!ptr)
   {
     printf("Erreur d'allocation de mémoire : %s\n", strerror(errno));
