@@ -5,6 +5,3 @@ build:
 
 clean:
 	rm hilo
-
-start:
-	./hilo

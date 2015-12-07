@@ -18,6 +18,3 @@ link: compile
 clean:
 	rm $(EXE)
 	rm $(OBJS)
-
-start: link
-	./$(EXE)

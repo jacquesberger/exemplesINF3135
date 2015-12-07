@@ -9,6 +9,3 @@ build:
 
 clean:
 	rm $(EXE)
-
-start:
-	./$(EXE)

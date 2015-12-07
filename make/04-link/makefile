@@ -2,7 +2,7 @@ CC = gcc
 OPTIONS = -Wall
 EXE = hilo
 
-all: start
+all: link
 
 compile:
 	$(CC) $(OPTIONS) -c *.c
@@ -13,6 +13,3 @@ link: compile
 clean:
 	rm $(EXE)
 	rm *.o
-
-start: link
-	./$(EXE)

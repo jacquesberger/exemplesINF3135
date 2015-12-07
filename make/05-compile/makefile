@@ -21,6 +21,3 @@ link: compile
 clean:
 	rm $(EXE)
 	rm *.o
-
-start: link
-	./$(EXE)
